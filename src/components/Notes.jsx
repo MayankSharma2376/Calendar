@@ -15,7 +15,7 @@ function Notes() {
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-5">
+    <div className="bg-white rounded-xl shadow-lg p-6">
 
       <h2 className="text-xl font-semibold mb-3">
         Notes
@@ -25,7 +25,7 @@ function Notes() {
         value={note}
         onChange={handleChange}
         className="w-full h-64 border rounded-lg p-3"
-        placeholder="Write monthly notes..."
+        placeholder="Write your monthly notes..."
       />
 
     </div>
